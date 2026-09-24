@@ -1,18 +1,32 @@
 {
   "name": "@pipeworx/mcp-deckofcards",
-  "version": "1.0.0",
-  "description": "MCP server for drawing and shuffling playing cards via Deck of Cards API",
+  "version": "1.0.1",
+  "description": "Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
+  "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["src"],
+  "bin": {
+    "mcp-deckofcards": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "deckofcards"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-deckofcards.git"
+  },
   "scripts": {
-    "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "deckofcards", "cards", "games"],
-  "author": "Pipeworx <hello@pipeworx.io>",
-  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-fd6f9781f7f1a1f07b0f3821274de74e6aa8449f442a02943c62b44815a52be7",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
