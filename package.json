@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-deckofcards",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-fd6f9781f7f1a1f07b0f3821274de74e6aa8449f442a02943c62b44815a52be7",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-db03a141e9de59065b9e599ce2eb813717f8ab10ee1d889ffaac8dc6965ab535",
+    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
   }
 }
