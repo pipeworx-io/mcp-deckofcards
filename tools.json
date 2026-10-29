@@ -1,0 +1,51 @@
+[
+  {
+    "name": "new_deck",
+    "description": "Create a shuffled deck of playing cards. Returns deck_id and remaining count. Use deck_count to combine multiple decks (e.g., 2 for 104 cards).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "number",
+          "description": "Number of standard 52-card decks to combine and shuffle. Defaults to 1."
+        }
+      }
+    }
+  },
+  {
+    "name": "draw_cards",
+    "description": "Draw cards from a deck. Returns card details (suit, value) and remaining count. Specify count to draw multiple cards at once.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "deck_id": {
+          "type": "string",
+          "description": "The deck ID returned by new_deck (e.g. \"3p40paa87x90\")."
+        },
+        "count": {
+          "type": "number",
+          "description": "Number of cards to draw. Defaults to 1."
+        }
+      },
+      "required": [
+        "deck_id"
+      ]
+    }
+  },
+  {
+    "name": "shuffle_deck",
+    "description": "Reshuffle a deck and reset all drawn cards back in. Returns updated remaining card count.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "deck_id": {
+          "type": "string",
+          "description": "The deck ID to shuffle (e.g. \"3p40paa87x90\")."
+        }
+      },
+      "required": [
+        "deck_id"
+      ]
+    }
+  }
+]
