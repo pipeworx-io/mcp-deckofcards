@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-deckofcards",
-  "version": "1.1.1",
-  "description": "Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
+  "version": "1.1.2",
+  "description": "Unofficial Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "deckofcards",
     "gatewaySlug": "deckofcards",
-    "sourceHash": "v1-ad8e6730bd13eadf1bf08470cb21a92e3fc1849e5a80597a8de0325c302ec508",
-    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
+    "sourceHash": "v1-484c6c80b29c24f160641f4392777509369aa6fbf8f156f0b63df0bd079e0bbb",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }

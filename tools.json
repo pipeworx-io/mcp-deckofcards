@@ -13,7 +13,7 @@
     }
   },
   {
-    "name": "draw_cards",
+    "name": "deckofcards_draw_cards",
     "description": "Draw cards from a deck. Returns card details (suit, value) and remaining count. Specify count to draw multiple cards at once.",
     "inputSchema": {
       "type": "object",

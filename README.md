@@ -1,15 +1,15 @@
 # mcp-deckofcards
 
-Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)
+Unofficial Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1863+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
 | `new_deck` | Create a shuffled deck of playing cards. Returns deck_id and remaining count. Use deck_count to combine multiple decks (e.g., 2 for 104 cards). |
-| `draw_cards` | Draw cards from a deck. Returns card details (suit, value) and remaining count. Specify count to draw multiple cards at once. |
+| `deckofcards_draw_cards` | Draw cards from a deck. Returns card details (suit, value) and remaining count. Specify count to draw multiple cards at once. |
 | `shuffle_deck` | Reshuffle a deck and reset all drawn cards back in. Returns updated remaining card count. |
 
 ## Quick Start
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1863+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

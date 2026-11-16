@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/deckofcards",
-  "title": "Deckofcards",
-  "description": "Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
-  "version": "1.1.1",
+  "title": "Deck of Cards (Unofficial)",
+  "description": "Unofficial Deck of Cards MCP — wraps deckofcardsapi.com (free, no auth)",
+  "version": "1.1.2",
   "websiteUrl": "https://pipeworx.io/packs/deckofcards",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-deckofcards",
